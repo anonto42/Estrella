@@ -2,15 +2,15 @@ import React from 'react'
 import Naveber from '../../components/Navber/Naveber'
 import Footer from '../../components/Footer/Footer'
 
-const Layout = ({Childrens}) => {
+const Layout = ({children}) => {
   return (
-    <>
+    <div className=''>
         <Naveber/>
-            <div className='content'>
-                {Childrens}
+            <div className='relative'>
+              {children}
             </div>
         <Footer/>
-    </>
+    </div>
   )
 }
 
