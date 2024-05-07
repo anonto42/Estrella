@@ -23,7 +23,7 @@ const CarasolOfFirst = () => {
     // },3000)
 
     useEffect(() => {
-        const intervalId = setInterval(PlassCount, 3000);
+        const intervalId = setInterval(PlassCount, 5000);
     
         return () => {
             clearInterval(intervalId);
