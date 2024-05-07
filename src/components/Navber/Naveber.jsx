@@ -7,7 +7,7 @@ import { FaShoppingBag } from "react-icons/fa";
 
 const Naveber = () => {
   return (
-    <div className='w-full h-[40px] bg-transparent text-[#e6d1fd]'>
+    <div className='w-full h-[40px] bg-transparent text-[#ffffff]'>
 
       <div className='flex justify-between w-full h-full items-center px-8 font-semibold text-[17px]'>
         <div className='mx-'><a href="">TAAGA </a></div>
